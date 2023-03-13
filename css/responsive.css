@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1001px) and (max-width: 1199px) {
+     #responsive-img {
+          width: 350px;
+          height: 300px;
+          border-radius: 5%;
+     }
+ }
+
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
+     #responsive-paragraph {
+         text-align: center !important;
+     }
+
+     #responsive-img {
+          display: none;
+     }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+     #responsive-img {
+          display: none;
+     }
+
+     #responsive-footer-img
+     {
+          display: none;
+     }
+}
+
+
+ 

@@ -1,0 +1,51 @@
+#hero-section {
+     top: 5px;
+     transition: all 2s;
+     animation: slideFromLeft 1s;
+}
+ 
+@keyframes slideFromLeft {
+     0% {
+         left: -100%;
+     }
+ 
+     100% {
+         left: 0;
+     }
+}
+
+.slide-up-animation {
+    visibility: hidden;
+}
+
+.slide-up {
+    animation-name: slide-up;
+    -webkit-animation-name: slide-up;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide-up {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
